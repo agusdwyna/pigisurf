@@ -379,7 +379,7 @@ Select Package
     ></iframe>
   </div>
 
-  <p className="text-slate-400 text-sm">© 2024 Pigi Surf Bali. Ride the wave.</p>
+  <p className="text-slate-400 text-sm">©2026 Copyright BomboraWeb - DW</p>
 </footer>
 
 
