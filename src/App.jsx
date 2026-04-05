@@ -32,7 +32,7 @@ const packages = [
   {
     id: 2,
     title: "2-Hour Surf Lesson",
-    subtitle: "+ Photo & Video Documentation",
+    subtitle: "+ Photo  Documentation",
     price: "350k",
     features: ["Professional Photos", "Personal Instructor", "Surfboard & Zinc"],
     image: "paket2.jpeg",
