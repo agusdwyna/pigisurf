@@ -244,9 +244,18 @@ Select Package
                     </div>
                     <p className="text-[#404850] text-sm mb-6 leading-relaxed">{pkg.desc}</p>
                   </div>
-                  <button className="w-full py-3 bg-[#005d90] text-white font-bold rounded-xl hover:opacity-90 transition-opacity text-sm">
-                    Select Package
-                  </button>
+                  <a
+  href={getWA(`Halo Pigi Surf, saya mau booking Paket ${pkg.title} seharga ${pkg.price}`)}
+  target="_blank"
+  rel="noreferrer"
+  className={`block w-full py-4 rounded-2xl text-center font-bold text-[15px] transition-all duration-300 ${
+    pkg.premium
+      ? "bg-white text-[#005d90] hover:bg-[#eceef0] hover:scale-[1.02]"
+      : "bg-white text-[#005d90] border-2 border-[#005d90]/10 hover:bg-[#005d90] hover:text-white hover:border-[#005d90]"
+  }`}
+>
+Select Package
+</a>
                 </div>
               </div>
             ))}
