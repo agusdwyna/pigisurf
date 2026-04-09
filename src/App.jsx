@@ -1,4 +1,4 @@
-
+import { Helmet } from "react-helmet";
 
 const WavesIcon = ({ size = 24, color = "#005d90" }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" fill={color}>
@@ -93,6 +93,17 @@ export default function App() {
   return (
     <>
       <style>{globalStyles}</style>
+
+       <Helmet>
+          <title>Pigi Surf Bali | Premium Surf School</title>
+          <meta name="description" content="Learn surfing in Bali with professional instructors. Safe, fun, and memorable surfing experience for all skill levels." />
+          <meta name="keywords" content="surfing bali, bali surf school, learn surf bali, pigi surf" />
+          <meta name="author" content="BomboraWeb - DW" />
+          <meta property="og:title" content="Pigi Surf Bali | Premium Surf School" />
+          <meta property="og:description" content="Experience Bali's waves with professional surf coaching." />
+          <meta property="og:image" content={HERO_IMG} />
+          <meta property="og:type" content="website" />
+        </Helmet>
 
       {/* ── Navbar ── */}
    <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-6 h-16 bg-white/80 backdrop-blur-xl border-b border-gray-200/50">

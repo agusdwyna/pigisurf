@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pigisurf.vercel.app/sitemap.xml
